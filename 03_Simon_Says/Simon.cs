@@ -23,11 +23,6 @@ namespace _03_Simon_Says
             return string.Join(" ", Enumerable.Repeat(v,r));
         }
 
-        /*internal object Repeat(string v1, int v2)
-        {
-            throw new NotImplementedException();
-        }*/
-
         public string StartOfWord(string v1, int v2)
         {
             return v1.Substring(0, v2);
@@ -41,7 +36,7 @@ namespace _03_Simon_Says
             return fw[0];
         }
 
-        public string Titleize(string v)
+       public string Titleize(string v)
         {
             CultureInfo cultureInfo = Thread.CurrentThread.CurrentCulture;
             TextInfo textInfo = cultureInfo.TextInfo;
