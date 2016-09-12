@@ -19,7 +19,7 @@ namespace SimonSaysInterface {
 
 			switch(cmd[0]) {
 				default:
-					Console.WriteLine("Unknow Command. Use !commands to show all.");
+					Console.WriteLine("Unknown Command. Use !commands to show all.");
 					break;
 
 				case "!commands":
@@ -49,7 +49,7 @@ namespace SimonSaysInterface {
 
 			Commands.Add("echo <input> - Repat what you enter");
 			Commands.Add("shout <input> - Shout what you enter");
-			Commands.Add("repeat <input> <times> - Repat what you enter");
+			Commands.Add("repeat <input> <times> - Repeat what you enter");
 
 			foreach (string write in Commands) {
 				Console.WriteLine(write);
